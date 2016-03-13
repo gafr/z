@@ -6,3 +6,6 @@
 /target/
 activator
 activator-launch-1.3.5.jar
+z.iml
+.idea/*
+

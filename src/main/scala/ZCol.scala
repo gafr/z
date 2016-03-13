@@ -227,7 +227,7 @@ class ZCol extends BorderPanel {
 	}
 
 	def look(txt : String, traverse : Boolean = true) : Boolean = {
-		if(txt == null || txt.trim.isEmpty)  return true
+		if(txt == null || txt.trim.isEmpty)  return true
 
 		txt match {
 			case ZCol.reFileLoc(f, loc) => fileLook(f, loc)				
